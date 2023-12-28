@@ -201,7 +201,7 @@ class AccountHomeManager {
     return new Promise((resolve, reject) => {
       try {
         const parsedData = AccountHomeMockedData; // fetch from db
-        setTimeout(() => resolve(parsedData as any), 200);
+        setTimeout(() => resolve(parsedData as any), 750);
       } catch (error) {
         reject(error);
       }
